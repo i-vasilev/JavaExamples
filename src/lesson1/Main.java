@@ -1,5 +1,8 @@
 package lesson1;
 
+import hw.zoo.Animal;
+import hw.zoo.Cat;
+
 import java.util.Scanner;
 
 public class Main {
