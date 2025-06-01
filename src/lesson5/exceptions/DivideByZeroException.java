@@ -1,4 +1,4 @@
-package hw.lesson5.exceptions;
+package lesson5.exceptions;
 
 public class DivideByZeroException extends Exception {
     public DivideByZeroException(){

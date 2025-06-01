@@ -1,4 +1,4 @@
-package hw.lesson5.enums;
+package lesson5.enums;
 
 public enum Apple {
     SIMIRENKO("Симиренко", 150),
