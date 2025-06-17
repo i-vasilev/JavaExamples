@@ -1,5 +1,8 @@
 package lesson8;
 
+import javax.swing.text.html.HTMLDocument;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -93,5 +96,11 @@ public class Main {
                 .findFirst()
                 .get());
 
+        List<List<String>> list2 = new ArrayList<>();
+        list2.add(List.of("some str", "some str 2", "some str 3"));
+        list2.add(List.of("any str", "any str 2", "any str 3"));
+        System.out.println(list2.stream()
+                .flatMap(lst -> lst.stream())
+                .toList());
     }
 }
